@@ -1,0 +1,53 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"><html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <style type="text/css" title="AppleStyle">
+        @import "StitchWidget.css";
+    </style>
+    <script type="text/javascript" src="file:///System/Library/WidgetResources/AppleClasses/AppleAnimator.js" charset="utf-8"></script>
+    <script type="text/javascript" src="file:///System/Library/WidgetResources/AppleClasses/AppleButton.js" charset="utf-8"></script>
+    <script type="text/javascript" src="file:///System/Library/WidgetResources/AppleClasses/AppleInfoButton.js" charset="utf-8"></script>
+    <script type="text/javascript" src="localizedStrings.js" charset="utf-8"></script>
+    <script type="text/javascript" src="Parts/utilities.js" charset="utf-8"></script>
+    <script type="text/javascript" src="Parts/setup.js" charset="utf-8"></script>
+    <script type="text/javascript" src="Parts/Text.js" charset="utf-8"></script>
+    <script type="text/javascript" src="Parts/InfoButton.js" charset="utf-8"></script>
+    <script type="text/javascript" src="Parts/GlassButton.js" charset="utf-8"></script>
+    <script type="text/javascript" src="StitchWidget.js" charset="utf-8"></script>
+<script type="text/javascript" src="Parts/Button.js" charset="utf-8"></script>
+<script type="text/javascript" src="Parts/Gauge.js" charset="utf-8"></script>
+</head>
+<body onload="load();">
+    <div id="front">
+        <img id="frontImg" src="Images/front.png" alt="">
+        
+        <div id="info"></div>
+        <div id="title"></div>
+    <div id="rowButton"></div>
+    
+    <input type="text" name="" value="0" id="totalRowCount" disabled="disabled">
+    <input type="text" name="" value="0" id="pattRow" disabled="disabled">
+    <div id="resetButton"></div>
+    <div apple-text-overflow="ellipsis" id="totRowText"></div>
+    <div apple-text-overflow="ellipsis" id="rowRepText"></div>
+    <input type="text" name="" value="0" id="totalRepeats" disabled="disabled">
+    <div apple-text-overflow="ellipsis" id="currRepeatText"></div>
+    <div id="gauge"></div>
+    
+    <div apple-text-overflow="ellipsis" id="gaugeHalfCompleteText"></div>
+    <div apple-text-overflow="ellipsis" id="gaugeEmptyText"></div>
+    <div apple-text-overflow="ellipsis" id="gaugeCompleteText"></div>
+    </div>
+    <div id="back">
+        <img id="backImg" src="Images/back.png" alt="">
+       
+        
+        <div id="done"></div>
+    <input type="text" name="" value="" id="rowsPerRepeat">
+    <div apple-text-overflow="ellipsis" id="rowsRepText"></div>
+    <input type="text" name="" value="" id="totalRows">
+    <div apple-text-overflow="ellipsis" id="totRowsText"></div>
+    </div>
+
+</body>
+</html>
